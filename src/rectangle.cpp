@@ -23,7 +23,9 @@ int Rectangle::perimeter()
 
 int Rectangle::area()
 {
-	return (width * height);
+	return -1; // to make area test fail
+
+	// return (width * height);
 }
 
 void Rectangle::set_width(int w) {
