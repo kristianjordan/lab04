@@ -35,12 +35,12 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
 
-#build tests
--name: Build google test
-run:
-        cmake3 ./
-        make
+      #build tests
+      - name: Build google test
+        run: |
+          cmake3 ./
+          make
 
-# run google test
--name: Run test
-run: ./test
+      # run google test
+      - name: Run test
+        run: ./test     
