@@ -38,7 +38,7 @@ jobs:
       # build tests
       - name: Build google test
         run: |
-          cmake
+          cmake ./
           make
 
       # run google test
