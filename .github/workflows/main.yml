@@ -43,6 +43,6 @@ jobs:
           cmake ./
           make
 
-     # run google test
-     - name: Run test
-       run: ./test
+      # run google test
+      - name: Run test
+        run: ./test
