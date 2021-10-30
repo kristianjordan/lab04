@@ -37,7 +37,7 @@ jobs:
 
       # build tests
       - name: Build google test
-        run:
+        run: |
           cmake --version
           /usr/bin/git submodule update --init
           cmake ./
